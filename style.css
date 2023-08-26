@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+#featured-property {
+  text-align: center;
+}
+#featured-property figcaption {
+  font-size: 12px;
+}
+header a {
+  padding: 10px;
+  background-color: #FFD700;
+}
+#featured-property p {
+  width: 800px;
+  margin: auto;
+}
+#details {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: space-between; /* Distribute items evenly across the container */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#details > div {
+  float: left;
+  background-color: #F5F5F5;
+  text-align: center;
+  width: 25%; /* Occupy 25% of the width of the parent container */
+}
